@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/v1/products")
 @RequiredArgsConstructor
-@CrossOrigin("http://localhost:3000") // Homework: *
+@CrossOrigin("*") // Homework: *
 public class ProductController {
     private final ProductService productService;
 
